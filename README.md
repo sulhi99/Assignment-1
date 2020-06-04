@@ -80,19 +80,19 @@
    public static void main(String[] args){
    
    BajuKurung c1 = new BajuKurung();
-   c1.scarf();
-   c1.colour();
-   c1.silky();
+   BajuKurung.scarf();
+   BajuKurung.colour();
+   BajuKurung.silky();
    
    Cheongsam c2 = new Cheongsam();
-   c2.collar();
-   c2.skirt();
-   c2.silky();
+   Cheongsam.collar();
+   Cheongsam.skirt();
+   Cheongsam.silky();
    
    Sari c3 = new Sari();
-   c3.sixYard();
-   c3.thin();
-   c3.silky(); 
+   Sari.sixYard();
+   Sari.thin();
+   Sari.silky(); 
    }
 }
 ~~~
@@ -100,15 +100,12 @@
 ### Output 
 
 ~~~ 
-----jGRASP exec: java Main
-scarf
+Wearing scarf on the head
 colourfull
 SilkyDress
-collar
-skirt
+A silk one piece dress with a collar, either in the centre or on the side
+a long skirt 
 silkyDress
-sixYard
+Sari is a six yard piece of cloth
 thin
 silkyDress
-
- ----jGRASP: operation complete.
